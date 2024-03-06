@@ -22,10 +22,12 @@ documentation can often be generated from existing code with no modifications.
 Version 3 is an update of Graham Stoney's original code (in K&R) format to make it more
 readable (and therefore maintainable). K&R function prototypes have been replaced
 by modern ANSI-C prototypes and the code has been re-structured to make it easier
-to debug (using symbolic debuggers such as gdb). In addition, support for prehistoric
-systems (Sun, Apollo, HPUX, AIX and MSDOS) has been removed. Yes, they were great in
+to debug (using symbolic debuggers such as gdb). In addition, support for 'prehistoric
+systems' (Sun, Apollo, HPUX, AIX and MSDOS) has been removed. Yes, they were great in
 their time, but they are functionally extinct now. Support in this release is primarily
-for Linux, but the code should build on BSD flavours, and probably CYGWIN.
+for Linux, but the code should build on BSD flavours, and probably CYGWIN and other
+POSIX compliant systems. The configuration script has been also been updated in order to
+make it easier to maintain (and support for legacy UNIX and other systems has been removed). 
 
 The program can generate nroff/troff -man, TeXinfo, LaTeX or HTML output
 directly, and should run on virtually any Unix-like system, OS/2, VMS, MSDOS or
