@@ -10,15 +10,6 @@
    				by Mark O'Neill
       		Tumbling Dice, Newcastle upon Tyne UK, 2024
    	
-
-C2man is an automatic documentation tool that extracts comments from C source
-code to generate functional interface documentation in the same format as
-sections 2 & 3 of the Unix Programmer's Manual. It requires minimal effort from
-the programmer by looking for comments in the usual places near the objects
-they document, rather than imposing a rigid function-comment syntax or
-requiring that the programmer learn and use a typesetting language.  Acceptable
-documentation can often be generated from existing code with no modifications.
-
 Version 3 is an update of Graham Stoney's original code (in K&R) format to make it more
 readable (and therefore maintainable). K&R function prototypes have been replaced
 by modern ANSI-C prototypes and the code has been re-structured to make it easier
@@ -28,6 +19,14 @@ their time, but they are functionally extinct now. Support in this release is pr
 for Linux, but the code should build on BSD flavours, and probably CYGWIN and other
 POSIX compliant systems. The configuration script has been also been updated in order to
 make it easier to maintain (and support for legacy UNIX and other systems has been removed). 
+
+C2man is an automatic documentation tool that extracts comments from C source
+code to generate functional interface documentation in the same format as
+sections 2 & 3 of the Unix Programmer's Manual. It requires minimal effort from
+the programmer by looking for comments in the usual places near the objects
+they document, rather than imposing a rigid function-comment syntax or
+requiring that the programmer learn and use a typesetting language.  Acceptable
+documentation can often be generated from existing code with no modifications.
 
 The program can generate nroff/troff -man, TeXinfo, LaTeX or HTML output
 directly, and should run on virtually any Unix-like system, OS/2, VMS, MSDOS or
