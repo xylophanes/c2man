@@ -1,0 +1,4 @@
+To improve functionality, structs really need to be documented. Once this is done
+c2man should be an adequate documentation generator for low level C libraries and
+embedded systems.
+
